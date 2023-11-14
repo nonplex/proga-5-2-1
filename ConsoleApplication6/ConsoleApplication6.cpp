@@ -19,7 +19,6 @@ int main()
     setlocale(LC_ALL, "ru");
     //Массив
     int mas[5];
-    int k = 0;
     for (int i = 0; i < 5; i++) {
         cout << "элемент массива номер " << i << ": ";
         cin >> mas[i];
